@@ -47,10 +47,10 @@ public class Calculator {
                     continue;
                 }
 
-                System.out.println("Enter your first number : ");
+                System.out.print("Enter your first number : ");
                 double num1=input.nextInt();
 
-                System.out.println("Enter your second number : ");
+                System.out.print("Enter your second number : ");
                 double num2=input.nextInt();
 
                 double result;
