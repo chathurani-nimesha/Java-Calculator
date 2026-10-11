@@ -78,10 +78,13 @@ public class Calculator {
                 System.out.println("Result : "+result);
 
             }catch (InputMismatchException e){
-
+                System.out.println("Invalid input! Please enter numbers only...");
+                input.nextLine();
+            }catch (ArithmeticException e){
+                System.out.println("Error : "+ e.getMessage());
             }
         }
 
-        //scanner.close();
+        input.close();
     }
 }
