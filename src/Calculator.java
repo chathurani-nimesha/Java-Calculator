@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Calculator {
@@ -15,6 +14,11 @@ public class Calculator {
     }
 
     public static double division(double num1, double num2){
+        if (num2 ==0){
+            throw new ArithmeticException(
+                    "Division by zero is not allowed."
+            );
+        }
         return num1/num2;
     }
 
@@ -48,10 +52,10 @@ public class Calculator {
                 }
 
                 System.out.print("Enter your first number : ");
-                double num1=input.nextInt();
+                double num1=input.nextDouble();
 
                 System.out.print("Enter your second number : ");
-                double num2=input.nextInt();
+                double num2=input.nextDouble();
 
                 double result;
 

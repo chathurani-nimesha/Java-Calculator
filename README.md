@@ -6,32 +6,43 @@ This is a basic calculator application developed using JAVA as the part of the S
 
 ## Features
 
-* Addition
-* Subtraction
-* Division
-* Multiplication
+* Addition of two numbers
+* Subtraction of two numbers
+* Division of two numbers
+* Multiplication of two numbers
 * Menu-driven operation selection
 * Repeat calculations until user exist
 * Division-by-zero exception handling
 * Invalid menu selection handling
 * Non-numeric input handling 
+* Automated unit tests using JUnit 4
+* Verification of expected and actual results
 
 ## Technology
 
-* Java
-* Java Scanner
-* Exception Handling (try-catch)
-* Conditional Statements(it-else)
-* Switch statement
-* Methods and Loops
+* Programming Language: Java
+* IDE: IntelliJ IDEA
+* Testing Framework: JUnit 4
+* Version Control: Git
+* Repository Hosting: GitHub
 
-## How to Run
+## How to Run the Project
 
-1. Open Calculator.java.
-2. Click the green Run button beside the main() method.
-3. Select an operation from the menu.
-4. Enter the required numbers.
-5. Select option 5 to exit.
+1. Install a Java Development Kit(JDK).
+2. Clone or download this repository.
+3. Open the project in IntelliJ IDEA.
+4. Ensure JUnit 4 is configured as a project dependency.
+5. Open Calculator.java to view the calculator implementation.
+6. Open CalculatorTest.java.
+7. Click the green Run icon beside the test class.
+8. Review the test results in IntelliJ IDEA.
+
+## Requirements
+
+* Java Development Kit (JDK)
+* IntelliJ IDEA or another Java IDE
+* JUnit 4
+* Git (for version control)
 
 ## Author
 
